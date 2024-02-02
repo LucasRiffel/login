@@ -1,0 +1,105 @@
+body {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.img-fundo, .img-fundo2 ,.img-fundo3, .img-fundo4 ,.img-fundo5  {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    background-attachment: fixed;
+}
+.img-fundo {
+    background-image: url(https://wallpapercave.com/wp/wp6011799.jpg);
+}
+
+.img-fundo2 {
+    background-image: url(https://th.bing.com/th/id/R.33b87937d870003b1f65cab11214b826?rik=A1xQi2E%2bQ6%2fIeg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f0%2fd%2ff%2f670131.jpg&ehk=jKUjzr1urTK3hSA78bYxG49mj2My%2bdStR41ohECEKRQ%3d&risl=&pid=ImgRaw&r=0);
+}
+
+.img-fundo3 {
+    background-image: url(https://preview.redd.it/sunset-3840x1600-v0-stoxe5fp41ga1.jpg?auto=webp&s=19655ada73c7983cf506fb0bf686a2149c735c8f);
+}
+
+.img-fundo4 {
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2018/04/30/minimalist--from-firewatch-wallpaper.jpg);
+}
+
+.img-fundo5 {
+    background-image: url(https://wallpapercave.com/wp/wp8149131.jpg);
+}
+
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.container {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 45px;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.333);
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    border-color: white;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+  }
+
+.botao-login {
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 9px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: background-color 1s ease; 
+}
+
+.botao-login:hover {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    background-color:  rgb(209, 209, 209);
+}
+
+.input-box input {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: transparent;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+}
+
+.termos {
+    padding: 9px;
+}
+
+.body {
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    overflow-y: scroll;
+  }
+  
+::-webkit-scrollbar {
+    width: 0px;
+  }
+
+
+  

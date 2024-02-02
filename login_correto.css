@@ -1,0 +1,31 @@
+body {
+    overflow-x: hidden;
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200vh;
+    height: 100%;
+    background: url(https://wallpapercave.com/wp/wp4676582.jpg) no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+}
+
+.caixa-texto {
+    position: sticky;
+    top: 40%;
+    left: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 45px;
+    border-radius: 15px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    backdrop-filter: blur(2.5px);
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
